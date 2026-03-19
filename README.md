@@ -1,4 +1,6 @@
-# FastAPI is used for building web APIs with python type hints and FastAPI dependencies are Pydantic and Starlette
+# FastAPI is a Python class that provides all the functionality for your API.
+FastAPI is used for building web APIs with python type hints
+FastAPI dependencies are Pydantic and Starlette
 starlette for web part  & pydantic for data part
 
 python -m pip install --upgrade pip        .... To use the latest pip to install
@@ -21,3 +23,9 @@ Deploy your application to FastApi Cloud or Vercel AI
 on the terminal type ...... 
 fastapi login 
 fastapi deploy 
+
+CRUD OPERATIONS 
+C = Post (create operation/method for @app decorators)
+R = Get  (read operation/method for @app decorators)
+U = Put (update operation/method for @app decorators)
+D = Delete (delete operation/method for @app decorators)
